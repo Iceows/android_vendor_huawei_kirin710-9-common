@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Config>
-  <GhostCorrection>
-    <LowThr>1</LowThr>
-    <HighThr>15</HighThr>
-  </GhostCorrection>
+    <GhostCorrection>
+        <LowThr>1</LowThr>
+		<HighThr>15</HighThr>
+    </GhostCorrection>
 </Config>
