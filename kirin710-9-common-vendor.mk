@@ -276,6 +276,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhiai_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhiai_client.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhiai_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhiai_common.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhiion.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhisi_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhisi_wrapper.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhivwservice.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhuaweiaudioeffectutil.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libhuaweicust.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhuaweicust.so \
@@ -440,6 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhiai_hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhiai_hidl.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhiai_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhiai_server.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhiion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhiion.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhisi_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhisi_wrapper.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhivwservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhivwservice.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhorizondetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhorizondetect.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweiaudioeffectutil.so \
