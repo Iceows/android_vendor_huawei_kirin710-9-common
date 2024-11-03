@@ -6,16 +6,24 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/huawei/kirin710-9-common
 
 PRODUCT_COPY_FILES += \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/iaware_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.xml \
     vendor/huawei/kirin710-9-common/proprietary/system/bin/tee_auth_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/tee_auth_daemon \
     vendor/huawei/kirin710-9-common/proprietary/system/etc/native_packages.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/native_packages.bin \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc_secshared.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libteec_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteec_client.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libteeclientjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteeclientjni.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtuidaemon.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib/vendor.huawei.hardware.libteec@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.huawei.hardware.libteec@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib/vendor.huawei.hardware.libteec@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.huawei.hardware.libteec@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc_secshared.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libteec_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteec_client.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteeclientjni.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtuidaemon.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib64/vendor.huawei.hardware.libteec@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.huawei.hardware.libteec@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib64/vendor.huawei.hardware.libteec@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.huawei.hardware.libteec@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/system/usr/idc/fingerprint.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/fingerprint.idc \
     vendor/huawei/kirin710-9-common/proprietary/system/usr/keylayout/fingerprint.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/fingerprint.kl \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec:$(TARGET_COPY_OUT_VENDOR)/bin/32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec \
@@ -160,8 +168,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/gnss/rmd/g/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/g/aindex.bin \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/gnss/rmd/t/a_1:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/a_1 \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/gnss/rmd/t/aindex.bin:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/rmd/t/aindex.bin \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service.hisi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service.hisi.rc \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.dolby.dms@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.dolby.dms@1.0-service.rc \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.gnss@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.gnss@1.2-service.rc \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.graphics.mediacomm@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.graphics.mediacomm@2.0-service.rc \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc \
@@ -309,6 +319,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.2.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.camResource.orbService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.camResource.orbService@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.camera.camResource@1.0.so \
@@ -328,9 +340,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.graphics.mediacomm@2.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hisiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hisiradio@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hisiradio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hisiradio@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hisupl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hisupl@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.hwvibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.hwvibrator@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.iawareperfpolicy@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.iawareperfpolicy@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.libteec@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.libteec@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.radio.chr@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio.chr@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio.deprecated@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio.ims@1.0.so \
@@ -490,6 +507,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.2.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@2.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.camera.camResource.orbService@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.camera.camResource.orbService@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.camera.camResource@1.0.so \
@@ -509,9 +528,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.graphics.mediacomm@2.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hisiradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hisiradio@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hisiradio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hisiradio@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hisupl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hisupl@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.hwvibrator@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.iawareperf@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.iawareperfpolicy@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.iawareperfpolicy@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.libteec@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.libteec@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.perfgenius@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.perfgenius@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio.chr@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio.chr@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio.deprecated@1.0.so \
@@ -523,5 +547,5 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop
 
 PRODUCT_PACKAGES += \
-    libril-hisi \
+    libril \
     audio.primary.kirin710
