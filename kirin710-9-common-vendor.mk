@@ -187,6 +187,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/perfgenius_event_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_event_policy.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/perfgenius_scenario_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_scenario_policy.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/iaware_config_cust.bin:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.bin \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/uniperf_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/uniperf_config_cust.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/BCM4345C0_003.001.025.0155.0263.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0_003.001.025.0155.0263.hcd \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/CPU_RAM_SCHED.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_SCHED.bin \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/CPU_RAM_WBS.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_WBS.bin \
