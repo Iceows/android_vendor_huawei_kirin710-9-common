@@ -9,6 +9,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/iaware_config_cust.bin:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.bin \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/uniperf_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/uniperf_config_cust.xml \
     vendor/huawei/kirin710-9-common/proprietary/system/bin/tee_auth_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/tee_auth_daemon \
     vendor/huawei/kirin710-9-common/proprietary/system/etc/native_packages.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/native_packages.bin \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc_secshared.so \
@@ -186,8 +188,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/perfgenius_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_config.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/perfgenius_event_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_event_policy.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/perfgenius_scenario_policy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perfgenius_scenario_policy.xml \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/iaware_config_cust.bin:$(TARGET_COPY_OUT_VENDOR)/etc/xml/iaware_config_cust.bin \
-    vendor/huawei/kirin710-9-common/proprietary/vendor/etc/xml/uniperf_config_cust.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xml/uniperf_config_cust.xml \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/BCM4345C0_003.001.025.0155.0263.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/BCM4345C0_003.001.025.0155.0263.hcd \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/CPU_RAM_SCHED.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_SCHED.bin \
     vendor/huawei/kirin710-9-common/proprietary/vendor/firmware/CPU_RAM_WBS.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CPU_RAM_WBS.bin \
@@ -320,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.2.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so \
@@ -550,4 +551,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libril \
     audio.primary.kirin710
-
