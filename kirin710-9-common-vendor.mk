@@ -315,8 +315,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libteec_eid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec_eid.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libteec_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec_vendor.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmix.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhuaweiprocessing.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libldnhncr.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/vendor.huawei.hardware.ai@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.ai@1.2.so \
@@ -503,8 +511,16 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libthpinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthpinterface.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libthplog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthplog.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libtsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtsa.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.2.so \

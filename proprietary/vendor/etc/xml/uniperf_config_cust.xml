@@ -646,6 +646,22 @@
     </cmd>
     <!--from 4405 to 4414, for itouch perf level. cmd id end-->
 
+    <cmd id="4416" name="quickstep">
+        <action>
+            <duration_ms>450</duration_ms>
+            <lit_cpu0_min_freq>1709000</lit_cpu0_min_freq>
+            <big_cpu0_min_freq>1997000</big_cpu0_min_freq>
+            <big_cpu0_max_freq>2189000</big_cpu0_max_freq>
+            <gpu_min_freq>567000000</gpu_min_freq>
+            <gpu_max_freq>999000000</gpu_max_freq>
+            <ddr_min_freq>1245000000</ddr_min_freq>
+            <vip>30</vip>
+            <top-app>30</top-app>
+            <foreground>30</foreground>
+            <boost>30</boost>
+        </action>
+    </cmd>
+
     <!--group num must be (eas:8, hmp:1)-->
     <cmd id="5376" name="set_default_level">
         <action>
