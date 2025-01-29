@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/goodix_3288_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3288_ta.sec \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/goodix_5296_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_5296_ta.sec \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/gpsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/gpsdaemon \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hostapd_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_hisi \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service.hisi:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.0-service.hisi \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service \
@@ -93,6 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/syna_155A_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/syna_155A_ta.sec \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/teecd:$(TARGET_COPY_OUT_VENDOR)/bin/teecd \
     vendor/huawei/kirin710-9-common/proprietary/vendor/bin/tlogcat:$(TARGET_COPY_OUT_VENDOR)/bin/tlogcat \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/wpa_cli_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli_hisi \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/bin/wpa_supplicant_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_supplicant_hisi \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/DroidSansFallbackTui.ttf:$(TARGET_COPY_OUT_VENDOR)/etc/DroidSansFallbackTui.ttf \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/bluetooth/bt_vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_vendor.conf \
     vendor/huawei/kirin710-9-common/proprietary/vendor/etc/camera/bshutter/default/algo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/bshutter/default/algo.xml \
@@ -465,6 +468,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhorizondetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhorizondetect.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhuaweiaudioeffectutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweiaudioeffectutil.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhuaweicust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhuaweicust.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libhwwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwwifi-hal.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libiawareperf_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_client.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libiawareperf_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperf_server.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libiawareperfpolicy_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiawareperfpolicy_server.so \
@@ -503,6 +507,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libthpinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthpinterface.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libthplog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthplog.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libtsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtsa.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libwifi_ext.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_ext.default.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/libwifi_wapi_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi_wapi_hisi.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.ai@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.ai@1.0.so \
@@ -546,6 +552,10 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.rtt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.rtt@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.sensors@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.tp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.tp@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi.supplicant@2.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi@1.0.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib64/vendor.huawei.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.wifi@1.1.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/phone.prop:$(TARGET_COPY_OUT_VENDOR)/phone.prop
 
 PRODUCT_PACKAGES += \
