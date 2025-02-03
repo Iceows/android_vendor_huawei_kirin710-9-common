@@ -14,12 +14,14 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/system/bin/tee_auth_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/tee_auth_daemon \
     vendor/huawei/kirin710-9-common/proprietary/system/etc/native_packages.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/native_packages.bin \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libc_secshared.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib/libstagefright.huawei.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstagefright.huawei.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libteec_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteec_client.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libteeclientjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libteeclientjni.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtuidaemon.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/vendor.huawei.hardware.libteec@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.huawei.hardware.libteec@1.0.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib/vendor.huawei.hardware.libteec@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.huawei.hardware.libteec@2.0.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libc_secshared.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libc_secshared.so \
+    vendor/huawei/kirin710-9-common/proprietary/system/lib64/libstagefright.huawei.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstagefright.huawei.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libteec_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteec_client.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libteeclientjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libteeclientjni.so \
     vendor/huawei/kirin710-9-common/proprietary/system/lib64/libtuidaemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libtuidaemon.so \
@@ -268,6 +270,12 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/hwcam/hwcam.services.so:$(TARGET_COPY_OUT_VENDOR)/lib/hwcam/hwcam.services.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libCLCropAndScale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCLCropAndScale.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libFaceBeautyMeiwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceBeautyMeiwo.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX.hisi.media.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX.hisi.media.common.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX.hisi.vdec.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX.hisi.vdec.core.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX.hisi.video.decoder.secure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX.hisi.video.decoder.secure.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX.hisi.video.decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX.hisi.video.decoder.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX.hisi.video.encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX.hisi.video.encoder.so \
+    vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOMX_Core.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/libOpenCLFoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCLFoundation.so \
     vendor/huawei/kirin710-9-common/proprietary/vendor/lib/lib_device_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_device_interface.so \
